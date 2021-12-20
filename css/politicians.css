@@ -2,3 +2,65 @@
     display: flex;
     margin: auto;
 }
+
+#sort-th {
+    cursor: pointer;
+}
+
+table tr:hover {
+    background-color: #cbcbcb;
+}
+.edit-btn, .delete-btn, .accept-btn{
+    margin: 0 5px 0 5px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+}
+
+.delete-btn{
+    background: #8f1829;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+    background: red;
+}
+
+.edit-btn{
+    background: #4783f5;
+}
+
+.edit-btn:hover {
+    cursor: pointer;
+    background: cornflowerblue;
+}
+
+.accept-btn {
+    background: darkolivegreen;
+}
+
+.accept-btn:hover {
+    cursor: pointer;
+    background: green;
+}
+
+#create-politician-wrapper{
+    justify-content: center;
+}
+input{
+    width: 200px;
+}
+
+#create-politician-wrapper input{
+    width: 300px;
+    height: 20px;
+    font-family: 'Playfair Display', serif;
+}
+#create-politician-wrapper select, select, input{
+    font-family: 'Playfair Display', serif;
+}
+#new-politician-button{
+    margin-left: 5px;
+    font-family: 'Playfair Display', serif;
+}

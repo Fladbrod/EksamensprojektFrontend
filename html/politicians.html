@@ -10,18 +10,18 @@
 <nav id="menu"></nav>
 
 <div id="create-politician-wrapper">
-    <input id="create-politician-name" placeholder="Navn">
+    <input id="create-politician-name" placeholder="Indtast politiker navn...">
     <select name="partyId" id="create-politician-party"></select>
     <button id="new-politician-button">Tilføj politiker</button>
 </div>
 
 <div class="table-div">
     <table id="center-table">
-        <caption><h3>Politikere i Samsø kommune</h3></caption>
+        <caption><h3>Politikere</h3></caption>
         <thead>
         <tr>
             <th>Navn</th>
-            <th>Parti</th>
+            <th id="sort-th" onclick="sortTable(1)">Parti</th>
             <th>Handlinger</th>
         </tr>
         </thead>

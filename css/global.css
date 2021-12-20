@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 #menu {
     display: flex;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #2f2f8a;
+    background-color: darkblue;
+    font-family: 'Bebas Neue', cursive;
 }
 
 /*Fjerner underscore fra link*/
@@ -19,13 +24,15 @@
 
 /*Definere h1 i menu*/
 #menu h1 {
-    color: #da3838;
+    color: white;
     padding: 1rem 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 #menu h1:hover {
-    background-color: #da3838;
-    color: #2f2f8a;
+    background-color: royalblue;
+    color: white;
     border-radius: 15px 15px 15px 15px;
 }
 
@@ -37,6 +44,7 @@
 body {
     padding-top: 8rem;
     background-color: #9b9797;
+
 }
 
 #center-table {
@@ -47,7 +55,6 @@ body {
 }
 
 table {
-    /*border: solid black;*/
     background-color: #c7c1c1;
     border-collapse: collapse;
 }
@@ -55,8 +62,20 @@ table {
 table td {
     padding: 10px;
     border: solid black 1px;
+    font-family: 'Playfair Display', serif;
 }
 
 table th {
     border: solid black 1px;
+    padding: 8px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    background: black;
+    color: whitesmoke;
+}
+
+caption h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
