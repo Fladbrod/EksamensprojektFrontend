@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/politicians.css">
+    <title>Politikere</title>
+</head>
+<body>
+<nav id="menu"></nav>
+
+<div id="create-politician-wrapper">
+    <input id="create-politician-name" placeholder="Navn">
+    <select name="partyId" id="create-politician-party"></select>
+    <button id="new-politician-button">Tilføj politiker</button>
+</div>
+
+<div class="table-div">
+    <table id="center-table">
+        <caption><h3>Politikere i Samsø kommune</h3></caption>
+        <thead>
+        <tr>
+            <th>Navn</th>
+            <th>Parti</th>
+            <th>Handlinger</th>
+        </tr>
+        </thead>
+        <tbody id="politicians-tbody"></tbody>
+    </table>
+</div>
+
+<script src="../js/global.js"></script>
+<script src="../js/politicians.js"></script>
+</body>
+</html>
